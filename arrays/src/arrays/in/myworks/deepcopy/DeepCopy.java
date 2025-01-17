@@ -18,5 +18,15 @@ public class DeepCopy {
 		System.out.println("Destination Array");
 		System.out.println(Arrays.toString(destArray));
 	}
+	
+	public void shallowCopy(int[] srcArray) {
+		srcArray[0] =111;
+		
+		System.out.println("SourceArray in shallowcopy");
+		for(int num:srcArray) 
+			System.out.print(num + "\t");
+		
+		
+	}
 
 }
