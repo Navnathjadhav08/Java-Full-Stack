@@ -4,6 +4,8 @@ public class Fan {
 	private String color;
 	private int speed;
 	
+	public Fan() {}
+	
 	public Fan(String color, int speed) {
 		//super();
 		this.color = color;
